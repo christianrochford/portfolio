@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* HUMAN */
+  Design & Development:Christian Rochford
+  Contact: rochfordchristian@gmail.com
+  From: Dublin, Ireland.
+
+/* SITE */
+  Last update:08/01/2012
+  Language:English
+  Doctype:HTML5
+  
+/* TOOLBOX */
+  Standards: HTML5, CSS3.
+  Components: Modernizr, jQuery.
+  Software: Sublime Text 2, Notepad++, Compass/Sass, Codekit, Photoshop, Illustrator, FileZilla.
+
