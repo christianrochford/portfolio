@@ -1,0 +1,13 @@
+# Tell Apache we are going to use the Rewrite Engine
+# Restrict rewriting urls to paths that don't exist, e.g. don't affect img/css/js links in docs
+# !-d prevents rewriting existing directories, !-f prevents rewriting existing files 
+
+  ErrorDocument 404 /404.html
+
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^([^/]+)/$ $1.html
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteRule ^([^/]+)/$ $1.php
